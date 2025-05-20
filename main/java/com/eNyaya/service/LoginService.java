@@ -43,12 +43,12 @@ public class LoginService {
         }
 
         // Check in lawyer table
-        String result = checkUserInTable(email, password, "lawyer", "lawyerEmail", "lawyerPassword");
+        String result = checkUserInTable(email, password, "Lawyer", "lawyerEmail", "lawyerPassword");
         if ("success".equals(result)) return "lawyer";
         if ("wrong_password".equals(result)) return "wrong_password";
 
         // Check in client table
-        result = checkUserInTable(email, password, "client", "clientEmail", "clientPassword");
+        result = checkUserInTable(email, password, "Client", "clientEmail", "clientPassword");
         if ("success".equals(result)) return "client";
         if ("wrong_password".equals(result)) return "wrong_password";
 
