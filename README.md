@@ -1,4 +1,4 @@
-Nyaya – Legal Aid System is a web-based platform that streamlines access to legal services by connecting clients with verified lawyers. 
+eNyaya – Legal Aid System is a web-based platform that streamlines access to legal services by connecting clients with verified lawyers. 
 The system supports three types of users: 
   1. Clients, who can search lawyers and book appointments.
   2. Lawyers, who manage their schedules and appointments updates
